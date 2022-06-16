@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="23" viewBox="0 0 108 23">
+  <g id="button" transform="translate(-917 -859)">
+    <text id="PREVIOUS" transform="translate(950 876)" fill="#2b2a2c" font-size="14" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">PREVIOUS</tspan></text>
+    <text id="arrow" transform="translate(942 864) rotate(180)" fill="#2b2a2c" font-size="21" font-family="LastResort, '\.LastResort'"><tspan x="0" y="0"></tspan></text>
+  </g>
+</svg>

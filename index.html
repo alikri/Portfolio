@@ -23,13 +23,17 @@
                     <div class="user__name">Alikri</div>
                     <div class="user__prof">Frontend Developer</div>
                 </div>
-
-            <nav class="nav">
+            </div>
+            <div class="helper_for_nav">
+            <nav id="nav" class="nav">
                 <a class="nav__link" href="#about">About</a>
                 <a class="nav__link" href="#portfolio">Portfolio</a>
                 <a class="nav__link" href="#contacts">Contact</a>
             </nav>
-        </div>
+            <button id ="navToggle" type="button" class="burger">
+                <img class="hamburger" src="images/burger.svg" alt="">
+            </button>
+            <div>
     </div>
 </header>
 
@@ -358,7 +362,7 @@
 
             </div> <!--  .timeline-->
             <div class="text-center">
-                <a class="btn" href="">Hire me</a>
+                <a class="btn" href="" data-modal="#modal_hire_me">Hire me</a>
             </div>
         </div> <!--  .modal-content-->
 

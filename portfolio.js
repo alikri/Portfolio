@@ -50,9 +50,22 @@ $ (function () {
             $("body").removeClass("no-scroll");
         }, 200);
     });
-
     $(".modal__dialog").on("click", function (event) {
         event.stopPropagation()
+    })
+
+    //// Mobile Nav /////
+
+    const navToggle= $("#navToggle");
+    const nav = $("#nav");
+
+    navToggle.on("click", function(event) {
+        event.preventDefault();
+
+        nav.toggleClass("show");
+
+
+
     })
 
 

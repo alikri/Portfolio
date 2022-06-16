@@ -35,12 +35,16 @@ h1, h2, h3, h4, h5, p {
 }
 
 .header {
+    position: relative;
     padding-top: 1.2rem;
     background-color: #EFEFEF;
     display: flex;
 
 }
-
+.helper_for_nav {
+ display: flex;
+    align-items: center;
+}
 .header__inner {
     display: flex;
     justify-content: space-between;
@@ -712,3 +716,40 @@ footer {
     color: #2B2A2C;
 }
 
+.burger {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+.hamburger {
+    display: none;
+    max-width: 100%;
+    height: auto;
+
+}
+@media (max-width: 767px) {
+    .nav {
+        display: none;
+        flex-wrap: wrap;
+        background-color: white;
+        text-align: right;
+        padding: .5rem 1rem;
+    }
+    .burger__icon {
+        display: block;
+    }
+    .show {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 1000;
+        width: 100%;
+    }
+    .nav__link {
+        width: 100%;
+        margin-left: 0;
+    }
+}
